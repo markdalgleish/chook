@@ -13,9 +13,11 @@ Currently only JsTestDriver has an adapter.
 var chook = require('chook'),
 	chook_jstestdriver = require('chook-jstestdriver');
 
-chook.use(chook_jstestdriver);
+chook.configure(function(){
+	chook.use( chook_jstestdriver({path: '/path/to/JsTestDriver.conf'}) );
+});
 
-chook.run('/path/to/JsTestDriver.conf').on('complete', function(err, results) {
+chook.run().on('complete', function(err, results) {
 	console.log(results);
 });
 ```

@@ -1,5 +1,6 @@
 {
 	"results": {
+		"total": 3
 		"pass": 2,
 		"fail": 1,
 		"error": 0,
@@ -9,6 +10,13 @@
 		"suites": [
 			{
 				"name": "suite name",
+
+				"total": 1
+				"pass": 1,
+				"fail": 0,
+				"error": 0,
+
+				"duration": 3,
 
 				"tests": [
 					{
@@ -21,17 +29,28 @@
 				"suites": [
 					{
 						"name": "a nested suite",
+
+						"total": 2
+						"pass": 1,
+						"fail": 1,
+						"error": 0,
+
+						"duration": 5,
+
 						"tests": [
 							{
 								"name": "a nested test",
 								"status": "pass",
-								"duration": 0
+								"duration": 1
 							},
 							{
 								"name": "another nested test",
 								"status": "fail",
-								"error": "expected true but got false",
-								"duration": 0
+								"error": {
+									"name": "AssertError",
+									"message": "expected true but got false"
+								},
+								"duration": 1
 							}
 						]
 					}
