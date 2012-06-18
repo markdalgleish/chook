@@ -1,0 +1,42 @@
+{
+	"results": {
+		"pass": 2,
+		"fail": 1,
+		"error": 0,
+
+		"duration": 5,
+
+		"suites": [
+			{
+				"name": "suite name",
+
+				"tests": [
+					{
+						"name": "test name",
+						"status": "pass"
+						"duration": 0
+					}
+				],
+
+				"suites": [
+					{
+						"name": "a nested suite",
+						"tests": [
+							{
+								"name": "a nested test",
+								"status": "pass",
+								"duration": 0
+							},
+							{
+								"name": "another nested test",
+								"status": "fail",
+								"error": "expected true but got false",
+								"duration": 0
+							}
+						]
+					}
+				]
+			} 
+		]
+	}
+}

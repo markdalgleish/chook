@@ -1,0 +1,36 @@
+{
+  "name": "chook",
+  "description": "Headless, framework-agnostic unit test runner",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Mark Dalgleish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "N/A"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/chook",
+  "engines": {
+    "node": "~0.6.11"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "phantom": "~0.3.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.9"
+  },
+  "keywords": []
+}
