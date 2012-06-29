@@ -27,7 +27,8 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "phantom": "~0.3.3"
+    "phantom": "~0.3.3",
+    "eventemitter2": "~0.4.9"
   },
   "devDependencies": {
     "grunt": "~0.3.9"
