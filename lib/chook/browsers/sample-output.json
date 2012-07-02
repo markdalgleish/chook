@@ -20,6 +20,7 @@
 
 				"tests": [
 					{
+						"suiteName": "suite name",
 						"name": "test name",
 						"status": "pass"
 						"duration": 0
@@ -39,11 +40,13 @@
 
 						"tests": [
 							{
+								"suiteName": "a nested suite",
 								"name": "a nested test",
 								"status": "pass",
 								"duration": 1
 							},
 							{
+								"suiteName": "a nested suite",
 								"name": "another nested test",
 								"status": "fail",
 								"error": {
