@@ -22,7 +22,7 @@
   ],
   "main": "lib/chook",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt lint && grunt test"
   },
   "dependencies": {
     "phantom-v2": "1.0.0",
