@@ -9,7 +9,7 @@ var oldConsoleLog,
 exports['reporters'] = {
 	setUp: function(done) {
 		oldConsoleLog = console.log;
-		oldStdOut = process.stdout.write;
+		oldStdout = process.stdout.write;
 
 		console.log = function(msg) {
 			lastConsoleMessage = msg;
@@ -43,7 +43,7 @@ exports['reporters'] = {
 	},
 	tearDown: function(done) {
 		console.log = oldConsoleLog;
-		process.stdout.write = oldStdOut;
+		process.stdout.write = oldStdout;
 		done();
 	}
 };
