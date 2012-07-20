@@ -1,6 +1,6 @@
 # chook
 
-Headless, framework-agnostic unit test runner for Node.js
+Headless, framework-agnostic unit test runner for Node.js [![Build Status](https://secure.travis-ci.org/markdalgleish/chook.png)](http://travis-ci.org/markdalgleish/chook)
 
 ## Getting Started
 Install Chook with: `npm install https://github.com/markdalgleish/chook/tarball/master`
