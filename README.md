@@ -3,11 +3,9 @@
 Headless, framework-agnostic unit test runner for Node.js [![Build Status](https://secure.travis-ci.org/markdalgleish/chook.png)](http://travis-ci.org/markdalgleish/chook)
 
 ## Getting Started
-Install Chook with: `npm install https://github.com/markdalgleish/chook/tarball/master`
+Install Chook with: `npm install chook`
 
-Install a test framework adapter with `npm install https://github.com/markdalgleish/chook-FRAMEWORK/tarball/master`
-
-Currently only JsTestDriver has an adapter.
+Install a test framework adapter. Currently only JsTestDriver has an adapter. Install it with: `npm install https://github.com/markdalgleish/chook-jstestdriver/tarball/master`
 
 ```javascript
 var chook = require('chook'),
@@ -22,17 +20,8 @@ chook.run().on('complete', function(results) {
 });
 ```
 
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).
-
-## Release History
-_(Nothing yet)_
 
 ## License
 Copyright (c) 2012 Mark Dalgleish  
