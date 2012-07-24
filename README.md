@@ -5,7 +5,7 @@ Headless, framework-agnostic unit test runner for Node.js [![Build Status](https
 ## Getting Started
 Install Chook with: `npm install chook`
 
-Install a test framework adapter. Currently only JsTestDriver has an adapter. Install it with: `npm install https://github.com/markdalgleish/chook-jstestdriver/tarball/master`
+Install the JsTestDriver adapter (currently the only adapter available) with: `npm install chook-jstestdriver`
 
 ```javascript
 var chook = require('chook'),
