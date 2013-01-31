@@ -28,7 +28,7 @@
     "test": "grunt lint && grunt test"
   },
   "dependencies": {
-    "phantom": "~0.3.3",
+    "phantom-v2": "~1.0.0",
     "eventemitter2": "~0.4.9"
   },
   "devDependencies": {
