@@ -21,6 +21,9 @@
     }
   ],
   "main": "lib/chook",
+  "engines": {
+    "node": "~0.8"
+  },
   "scripts": {
     "test": "grunt lint && grunt test"
   },
