@@ -20,9 +20,6 @@
     }
   ],
   "main": "lib/chook",
-  "engines": {
-    "node": "~0.6.11"
-  },
   "scripts": {
     "test": "grunt test"
   },
