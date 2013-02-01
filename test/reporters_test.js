@@ -1,3 +1,5 @@
+'use strict';
+
 var reporters = require('../lib/chook/reporters.js'),
 	events = require('events');
 

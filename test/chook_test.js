@@ -1,3 +1,5 @@
+'use strict';
+
 var chook = require('../lib/chook.js');
 
 exports['chook'] = {

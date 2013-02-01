@@ -1,3 +1,5 @@
+'use strict';
+
 var core = require('../lib/chook/core.js');
 
 exports['configure'] = {
